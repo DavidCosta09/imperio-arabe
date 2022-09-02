@@ -288,10 +288,33 @@ a {
     display: none;
   }
 
+  .titulos {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    color: #d3ab30;
+  }
+
   .produto-venda {
     display: flex;
     flex-direction: column;
     padding: 20px;
+  }
+
+  #marcas {
+    width: 100%;
+    height: 100vh;
+    background: #121315;
+  }
+
+  .marcas-images {
+    display: flex; /*organização dentro da estrutura*/
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
   }
 
   .image {
